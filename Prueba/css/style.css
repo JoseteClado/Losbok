@@ -1,0 +1,81 @@
+@font-face {
+    font-family: brotherBold;
+    src: url(../fonts/Bold.woff2);;
+}
+
+@font-face {
+    font-family: brotherRegular;
+    src: url(../fonts/Regular.woff2);
+}
+
+h2{display: flex;
+justify-content: center;
+font-family: brotherBold;
+    font-size: 45px;}
+
+body{
+    background-color: #687B79;
+    box-sizing: border-box;
+    padding: 60px 90px;
+}
+
+.container{
+    max-width: 1920px;
+    background-color: #F2F4F1;
+}
+
+    /* NAVBAR */
+nav{
+    
+    height: 800px;
+    background-image: url(../imagenes/Rectangle\ 8\ \(1\).webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: brotherRegular;
+}
+
+.navbar>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+.icono{
+    width: 70%;
+    padding-top: 25px;
+    font-family: brotherRegular;
+}
+
+.element{
+    padding-top: 25px;
+}
+
+.subscribe{
+    margin-top: 16px;
+    padding: 8px 12px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* LETRAS DEL TITULO */
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    font-size: 85px;
+    font-family: brotherRegular;
+}
